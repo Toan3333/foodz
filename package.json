@@ -2,22 +2,22 @@
   "name": "trananhtoan_asm1_web501",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "dev": "parcel ./*.html",
-    "devw": "parcel watch ./*.html",
-    "start": "json-server --watch db.json --port 3000"
+    "dev": "parcel index.html --no-cache",
+    "build": "parcel build index.html"
   },
   "staticFiles": {
     "staticPath": "public",
     "watcherGlob": "**"
+  },
+  "parcelOptions": {
+    "outDir": "dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "buffer": "^6.0.3",
-    "parcel": "^2.11.0",
     "parcel-plugin-static-files-copy": "^2.6.0"
   },
   "dependencies": {

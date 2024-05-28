@@ -1,0 +1,2 @@
+const e=document.querySelector(".add-product"),c=document.querySelector(".modal"),t=document.querySelector(".modal-close"),o=document.querySelector("#modalClose");e.addEventListener("click",function(){c.classList.add("active")}),t.addEventListener("click",function(){c.classList.remove("active")}),o.addEventListener("click",function(){document.querySelector("#modalUpdate").classList.remove("active")});
+//# sourceMappingURL=product.173345bc.js.map

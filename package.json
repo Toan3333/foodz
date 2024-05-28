@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel ./*.html --no-cache",
+    "dev": "parcel ./*.html",
     "devw": "parcel watch ./*.html",
     "start": "json-server --watch db.json --port 3000"
   },

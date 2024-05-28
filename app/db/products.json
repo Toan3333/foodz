@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Iphone 12 mini",
+      "price": 900,
+      "description": "Iphone 12 mini smartphone was lauched on 13th October 2020"
+    },
+    {
+      "id": 2,
+      "productName": "Galaxy note 20 Ultra",
+      "price": 1200,
+      "description": "The Galaxy note 20 Ultra smartphone was lauched on 13th October 2020"
+    },
+    {
+      "id": 3,
+      "productName": "Huawei Mate 30 pro",
+      "price": 1400,
+      "description": "Huawei Mate 30 pro smartphone was lauched on 13th October 2020"
+    }
+  ]
+}

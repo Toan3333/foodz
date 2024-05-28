@@ -1,0 +1,142 @@
+{
+  "products": [
+    {
+      "name": "Pizza Company",
+      "image": "https://images.unsplash.com/photo-1590947132387-155cc02f3212?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBpenphfGVufDB8fDB8fHww",
+      "category": "special",
+      "price": "5.99",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Pizza beef",
+      "category": "special",
+      "image": "https://media.istockphoto.com/id/1276408354/fr/photo/p%C3%A9pites-de-poulet-et-frie.webp?b=1&s=170667a&w=0&k=20&c=hHofYOrtGNvgo9PxbjTy2rOGWVM4HS06MVs54OvRx80=",
+      "price": 3.99
+    },
+    {
+      "id": "3",
+      "name": "Pizza cheese",
+      "category": "special",
+      "image": "https://media.istockphoto.com/id/1309352410/fr/photo/cheeseburger-avec-la-tomate-et-la-laitue-sur-la-planche-en-bois.webp?b=1&s=170667a&w=0&k=20&c=hJH2zvnrXhhVkp5-2YwSLgAlK_IZKAN2YYgs-PzXbd0=",
+      "price": 8.99
+    },
+    {
+      "id": "4",
+      "name": "Pizza cheese spicy",
+      "category": "special",
+      "image": "https://media.istockphoto.com/id/1414575281/fr/photo/une-d%C3%A9licieuse-et-savoureuse-pizza-italienne-margherita-aux-tomates-et-mozzarella-de-buffle.webp?b=1&s=170667a&w=0&k=20&c=Or2jcDP0IBNzJKyyavclY27xOjaQHXcAreFiwTZ4wOE=",
+      "price": 12.99
+    },
+    {
+      "id": "5",
+      "name": "Chicken",
+      "price": 5.99,
+      "image": "https://media.istockphoto.com/id/1371304605/fr/photo/po%C3%AAle-%C3%A0-frire-avec-parmesan-de-poulet-fra%C3%AEchement-cuit.webp?b=1&s=170667a&w=0&k=20&c=qniPX-VJ64zPqF2q1a0hMlNrYW8_YrhEbtFchMdZM7w=",
+      "category": "special"
+    },
+    {
+      "id": "6",
+      "name": "Chicken rice",
+      "price": 3.99,
+      "image": "https://media.istockphoto.com/id/1498331534/fr/photo/riz-au-poulet-r%C3%B4ti-au-piment-et-sauce-soja-servi-dans-un-plat-isol%C3%A9-sur-feuille-de-bananier.webp?b=1&s=170667a&w=0&k=20&c=PwGcKIJE_FPu1cVJBifai-pAzepFnIEqIE1w6idCA_U=",
+      "category": "hot"
+    },
+    {
+      "id": "7",
+      "name": "Kimchi hotpot",
+      "price": 12.99,
+      "image": "https://media.istockphoto.com/id/1498331534/fr/photo/riz-au-poulet-r%C3%B4ti-au-piment-et-sauce-soja-servi-dans-un-plat-isol%C3%A9-sur-feuille-de-bananier.webp?b=1&s=170667a&w=0&k=20&c=PwGcKIJE_FPu1cVJBifai-pAzepFnIEqIE1w6idCA_U=",
+      "category": "special"
+    },
+    {
+      "id": "8",
+      "name": "Shushi",
+      "price": 12.99,
+      "image": "http://localhost:1234/food-1.05ea399b.jpeg",
+      "category": "new"
+    },
+    {
+      "name": "Noodle1111",
+      "image": "http://localhost:1234/food-2.56dc52cc.jpeg",
+      "category": "new",
+      "price": "2.99",
+      "id": "9"
+    }
+  ],
+  "order": [
+    {
+      "id": "7ce5",
+      "name": "Toàn Trần Anh",
+      "phone": "0902433252",
+      "address": "10 Bayfront Ave",
+      "orderDate": "21-02-2024",
+      "status": "Pending",
+      "totalAmount": 3.99,
+      "products": [
+        {
+          "id": "2",
+          "name": "Pizza beef",
+          "category": "special",
+          "image": "https://media.istockphoto.com/id/1276408354/fr/photo/p%C3%A9pites-de-poulet-et-frie.webp?b=1&s=170667a&w=0&k=20&c=hHofYOrtGNvgo9PxbjTy2rOGWVM4HS06MVs54OvRx80=",
+          "price": 3.99,
+          "qty": 1
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "name": "Hot",
+      "id": "1"
+    },
+    {
+      "name": "Special",
+      "id": "2"
+    },
+    {
+      "name": "New",
+      "id": "3"
+    }
+  ],
+  "users": [
+    {
+      "username": "anhtoan",
+      "password": "anhtoan",
+      "role": "user",
+      "id": "1"
+    },
+    {
+      "username": "anhtoan2",
+      "password": "anhtoan2",
+      "role": "user",
+      "id": "2"
+    },
+    {
+      "username": "admin1",
+      "password": "admin",
+      "role": "admin",
+      "id": "3"
+    }
+  ],
+  "blog": [
+    {
+      "title": "Taste Journey: Discover Unique Flavors in Every Bite",
+      "image": "http://localhost:1234/blog-1.db0d09fa.jpeg",
+      "description": "Delicate and attractive flavor, this dish is the perfect combination of unique aroma and great taste.",
+      "id": "1"
+    },
+    {
+      "title": "Culinary Secrets: Great Food Like a Work of Art",
+      "image": "http://localhost:1234/blog-2.08f5c9b3.jpeg",
+      "description": "Each piece of soft meat melts in the mouth, blended with natural spices to create a unique meal experience.",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "image": "http://localhost:1234/blog-3.0fb73be2.jpeg",
+      "title": "Cooking With Passion: A Harmonious Combination",
+      "description": "Awakening the senses with its delicate flavors, this dish is a symbol of culinary creativity."
+    }
+  ]
+}

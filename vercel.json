@@ -1,3 +1,0 @@
-{
-  "routes": [{ "src": "/api/(.*)", "dest": "https://fooz-es6.vercel.app/$1" }]
-}

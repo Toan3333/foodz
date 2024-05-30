@@ -1,4 +1,5 @@
 import axios from "axios";
+
 class productService {
   constructor(endPoint) {
     this.collectionName = "products";

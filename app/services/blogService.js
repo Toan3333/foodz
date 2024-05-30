@@ -1,4 +1,5 @@
 import axios from "axios";
+
 class blogService {
   constructor(endPoint) {
     this.collectionName = "blog";

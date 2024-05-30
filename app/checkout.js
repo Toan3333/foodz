@@ -74,7 +74,7 @@ formOrder.addEventListener("submit", async (e) => {
     localStorage.removeItem("cart");
 
     // Hiển thị thông báo hoặc thực hiện bất kỳ hành động khác tùy thuộc vào yêu cầu của bạn
-    alert("Đơn hàng đã được tạo thành công!");
+    alert("Ok!");
   } catch (error) {
     console.log(error);
     // Xử lý lỗi nếu có

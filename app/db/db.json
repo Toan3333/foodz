@@ -50,18 +50,11 @@
       "category": "special"
     },
     {
-      "id": "8",
-      "name": "Shushi",
-      "price": 12.99,
+      "name": "Shushi1",
       "image": "http://localhost:1234/food-1.05ea399b.jpeg",
-      "category": "new"
-    },
-    {
-      "name": "Noodle1111",
-      "image": "http://localhost:1234/food-2.56dc52cc.jpeg",
       "category": "new",
-      "price": "2.99",
-      "id": "9"
+      "price": "12.99",
+      "id": "8"
     }
   ],
   "order": [
@@ -81,6 +74,25 @@
           "image": "https://media.istockphoto.com/id/1276408354/fr/photo/p%C3%A9pites-de-poulet-et-frie.webp?b=1&s=170667a&w=0&k=20&c=hHofYOrtGNvgo9PxbjTy2rOGWVM4HS06MVs54OvRx80=",
           "price": 3.99,
           "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "24e2",
+      "name": "Toàn Trần Anh",
+      "phone": "0902433252",
+      "address": "10 Bayfront Ave",
+      "orderDate": "30-05-2024",
+      "status": "Pending",
+      "totalAmount": 11.97,
+      "products": [
+        {
+          "id": "2",
+          "name": "Pizza beef",
+          "category": "special",
+          "image": "https://media.istockphoto.com/id/1276408354/fr/photo/p%C3%A9pites-de-poulet-et-frie.webp?b=1&s=170667a&w=0&k=20&c=hHofYOrtGNvgo9PxbjTy2rOGWVM4HS06MVs54OvRx80=",
+          "price": 3.99,
+          "qty": 3
         }
       ]
     }

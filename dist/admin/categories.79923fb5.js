@@ -585,7 +585,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"aCsa9":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-var _categoryService = require("./services/CategoryService");
+var _categoryService = require("./services/categoryService");
 var _categoryServiceDefault = parcelHelpers.interopDefault(_categoryService);
 var _jsonServerConstants = require("./constants/JsonServerConstants");
 var _jsonServerConstantsDefault = parcelHelpers.interopDefault(_jsonServerConstants);
@@ -680,7 +680,7 @@ categoryApi.getCategory().then((data)=>{
     });
 });
 
-},{"./services/CategoryService":"1bIMI","./constants/JsonServerConstants":"6L6hL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1bIMI":[function(require,module,exports) {
+},{"./services/categoryService":"dEdSe","./constants/JsonServerConstants":"6L6hL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dEdSe":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _axios = require("axios");

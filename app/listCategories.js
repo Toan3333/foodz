@@ -1,4 +1,4 @@
-import CategoryService from "./services/CategoryService";
+import CategoryService from "./services/categoryService";
 import JsonServerConstants from "./constants/JsonServerConstants";
 // Lấy địa chỉ api
 const categoryApi = new CategoryService(JsonServerConstants.EndPoint);
